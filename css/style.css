@@ -1,1 +1,40 @@
-/* add all items from grading group 3 and 4. Search for items in group 5 that refer to css f.e. z index */ 
+body
+{
+background-color: #FFFDF5;
+margin: 0;
+font-family: Libre Baskerville, serif;
+}
+
+header
+{
+    background-color: #7FA87A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    height: 60px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+nav a 
+{
+    text-decoration: none;
+    color: #293326;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #F1E4AE;
+    border-radius: 5px;
+}
+
+header figure img
+{
+    width: 80px;
+    height: auto;
+}
