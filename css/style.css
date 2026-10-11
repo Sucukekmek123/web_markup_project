@@ -2,9 +2,17 @@ body
 {
 background-color: #FFFDF5;
 margin: 0;
-font-family: Libre Baskerville, serif;
+font-family: 'Inter', sans-serif;
 }
-
+h1, h2, h3, h4, h5, h6 
+{
+    font-family: 'Liber Baskerville', serif;
+}
+header figure img
+{
+    width: 80px;
+    height: auto;
+}
 header
 {
     background-color: #7FA87A;
@@ -14,7 +22,6 @@ header
     padding: 15px 30px;
     height: 60px;
 }
-
 nav ul
 {
     list-style-type: none;
@@ -25,6 +32,7 @@ nav ul
 }
 nav a 
 {
+    font-family: 'Liber Baskerville', serif;
     text-decoration: none;
     color: #293326;
     font-weight: bold;
@@ -32,9 +40,111 @@ nav a
     background-color: #F1E4AE;
     border-radius: 5px;
 }
-
-header figure img
+.intro
 {
-    width: 80px;
-    height: auto;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+.card
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+.card-item
+{
+    background-color: #7FA87A;
+    border-radius: 16px;
+    padding: 16px;
+    width: 180px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-item figure
+{
+    margin: 0;
+    background-color: #F1E4AE;
+    border-radius: 16px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.card-item h3
+{
+   color: #293326;
+   font-family: 'Liber Baskerville', serif;
+   font-size: 22px;
+   margin: 20px 0 ;
+}
+.card-button
+{
+    display: inline-block;/*I learned this from the W3Schools, it allows the button to be styled like a button but still be a link*/
+    padding: 10px 20px;
+    background-color: #F1E4AE;
+    color: #293326;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.card img
+{
+ width: 100%;
+ height: 140px;
+ object-fit: cover;
+}
+.card a
+{
+font-family: 'Liber Baskerville', serif;
+}
+footer
+{
+    background-color: #7FA87A;
+    color: #F1E4AE;
+    text-align: center;
+    padding: 40px 60px 20px 60px;
+}
+footer h2
+{
+    font-family: 'Liber Baskerville', serif;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 24px;
+}
+footer nav
+{
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+footer nav ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    gap: 8px;
+}
+footer nav a 
+{
+    color: #F1E4AE;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: transparent; 
+    padding: 0;
+    border-radius: 0;
+}
+footer p
+{
+    margin-top: 20px;
+    font-size: 14px;
+    margin-bottom: 0;
 }
