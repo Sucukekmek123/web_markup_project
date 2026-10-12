@@ -8,6 +8,7 @@ h1, h2, h3, h4, h5, h6
 {
     font-family: 'Liber Baskerville', serif;
 }
+/* Header Styles */
 header figure img
 {
     width: 80px;
@@ -40,6 +41,7 @@ nav a
     background-color: #F1E4AE;
     border-radius: 5px;
 }
+/*Home Page Styles */
 .intro
 {
     max-width: 800px;
@@ -105,6 +107,59 @@ nav a
 {
 font-family: 'Liber Baskerville', serif;
 }
+/*Cooking Techniques Page Styles */
+.cooking-techniques main h1 {
+    text-align: center;
+   
+    color: #293326;
+}
+.cooking-techniques main p {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: #293326;
+}
+.cooking-techniques ul {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #293326;
+}
+
+.cooking-techniques main h2 {
+    text-align: center;
+
+    color: #293326;
+}
+.cooking-techniques .intro
+{
+    background-color: #F1E4AE;
+    color: #293326;
+    border: 10px solid #7FA87A;
+    border-radius: 20px;
+    padding: 10px 20px;
+    max-width: 800px;
+    margin: 10px auto;
+}
+.cooking-techniques .image-container
+{
+   background-color: #7FA87A;
+    border-radius: 16px;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-sizing: border-box;
+}
+.cooking-techniques .image-container img
+{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+}
+/* Footer Styles */
 footer
 {
     background-color: #7FA87A;
