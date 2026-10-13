@@ -2,3 +2,4 @@ Teacher i added the navigation bar to index html in 09/10/2026
 and added files for other pages ( like food fermentation, cooking skills, ect.)
 I FINISHED THE FOOTER AND HOMEPAGE ( 11/10/2026)
 Finished first detail page (12/10/2026)
+Finished detail page 2 so i finished 3 pages till now (home, detail1 and detail 2) (13/10/2026)
