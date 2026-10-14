@@ -7,6 +7,31 @@ font-family: 'Inter', sans-serif;
 h1, h2, h3, h4, h5, h6 
 {
     font-family: 'Liber Baskerville', serif;
+    color: #293326;
+}
+main h1, main h2, main h3, main h4, main h5, main h6
+{
+    text-align: center;
+}
+main p
+{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 15px;
+    color: #293326;
+}
+main ul
+{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 15px;
+    color: #293326;
 }
 /* Header Styles */
 header figure img
@@ -40,6 +65,42 @@ nav a
     padding: 5px 10px;
     background-color: #F1E4AE;
     border-radius: 5px;
+}
+
+/*introduction section styles */
+.intro
+{
+    background-color: #F1E4AE;
+    color: #293326;
+    border: 10px solid #7FA87A;
+    border-radius: 20px;
+    padding: 10px 20px;
+    max-width: 800px;
+    margin: 10px auto;
+}
+.intro p
+{
+    margin-top: 0;
+    margin-bottom: 12px;
+    padding: 0;
+}
+.image-container
+{
+    position: relative;
+    background-color: #7FA87A;
+    border-radius: 16px;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-sizing: border-box;
+}
+.image-container img
+{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
 }
 
 
@@ -114,21 +175,7 @@ font-family: 'Liber Baskerville', serif;
 
 /*Cooking Techniques Page Styles */
 .cooking-techniques main h1 {
-    text-align: center;
-   
-    color: #293326;
-}
-.cooking-techniques main p {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-    color: #293326;
-}
-.cooking-techniques ul {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    text-align: center; 
     color: #293326;
 }
 
@@ -137,52 +184,10 @@ font-family: 'Liber Baskerville', serif;
 
     color: #293326;
 }
-.intro
-{
-    background-color: #F1E4AE;
-    color: #293326;
-    border: 10px solid #7FA87A;
-    border-radius: 20px;
-    padding: 10px 20px;
-    max-width: 800px;
-    margin: 10px auto;
-}
-.cooking-techniques .image-container
-{
-   background-color: #7FA87A;
-    border-radius: 16px;
-    padding: 15px;
-    margin: 20px auto;
-    max-width: 800px;
-    box-sizing: border-box;
-}
-.cooking-techniques .image-container img
-{
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 12px;
-    display: block;
-}
-
 
 
 /* Kitchen Tools Page Styles */
 
-.kitchen-tools .intro
-{
-    padding: 25px 30px;
-    max-width: 800px;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.kitchen-tools .intro p 
-{
-    margin-top: 0;
-    margin-bottom: 12px;
-}
 
 .kitchen-tools main h1,
 .kitchen-tools main h2
@@ -190,17 +195,7 @@ font-family: 'Liber Baskerville', serif;
     text-align: center;
     color: #293326;
 }
-.kitchen-tools main p 
-{
-   max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 15px;
-    margin-top: 0;
-    margin-bottom: 30px;
-}
+
 .kitchen-tools ul 
 {
     max-width: 700px;
@@ -210,24 +205,7 @@ font-family: 'Liber Baskerville', serif;
     padding-right: 20px;
     margin-bottom: 15px;
 }
-.kitchen-tools .image-container
-{
-    position: relative;
-    background-color: #7FA87A;
-    border-radius: 16px;
-    padding: 15px;
-    margin: 30px auto 20px auto;
-    max-width: 600px;
-    box-sizing: border-box;
-}
-.kitchen-tools .image-container img
-{
-   width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 12px;
-    display: block;
-}
+
 .kitchen-tools .image-container h2
 {
     position: absolute;
@@ -270,6 +248,10 @@ footer nav ul
     margin: 0;
     flex-direction: column;
     gap: 8px;
+}
+footer h2, h3
+{
+    color: #F1E4AE;
 }
 footer nav a 
 {
