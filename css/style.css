@@ -189,22 +189,8 @@ font-family: 'Liber Baskerville', serif;
 /* Kitchen Tools Page Styles */
 
 
-.kitchen-tools main h1,
-.kitchen-tools main h2
-{
-    text-align: center;
-    color: #293326;
-}
 
-.kitchen-tools ul 
-{
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 15px;
-}
+
 
 .kitchen-tools .image-container h2
 {
@@ -220,6 +206,19 @@ font-family: 'Liber Baskerville', serif;
     padding: 10px 20px;
     border-radius: 5px;
 }
+
+/* Food Fermentation Page Styles */
+
+.intro .intro-box
+{
+    background-color: #7FA87A;
+    border-radius: 12px;
+    padding: 15px 20px;
+    margin: 15px 0;
+}
+
+
+
 /* Footer Styles */
 footer
 {
@@ -262,6 +261,7 @@ footer nav a
     padding: 0;
     border-radius: 0;
 }
+
 footer p
 {
     margin-top: 20px;
