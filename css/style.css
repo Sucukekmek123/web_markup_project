@@ -187,11 +187,6 @@ font-family: 'Liber Baskerville', serif;
 
 
 /* Kitchen Tools Page Styles */
-
-
-
-
-
 .kitchen-tools .image-container h2
 {
     position: absolute;
@@ -206,7 +201,6 @@ font-family: 'Liber Baskerville', serif;
     padding: 10px 20px;
     border-radius: 5px;
 }
-
 /* Food Fermentation Page Styles */
 
 .intro .intro-box
@@ -216,8 +210,55 @@ font-family: 'Liber Baskerville', serif;
     padding: 15px 20px;
     margin: 15px 0;
 }
+/* Contact Page Styles*/
+.contact-page .form-container
+{
+    background-color: #FFFDF5;
+    color: #293326;
+    border: 10px solid #7FA87A;
+    border-radius: 20px;
+    padding: 10px 20px;
+    max-width: 800px;
+    margin: 10px auto;    
 
+}
+.contact-page form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 
+.contact-page label
+{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: #293326;
+    font-size: 14px;
+}
+
+.contact-page input[type="text"], .contact-page input[type="email"], .contact-page textarea 
+{
+    width: 100%;
+    padding: 10px 12px;
+    border: 2px solid #7FA87A;
+    border-radius: 8px;
+    background-color: #FFFDF5;
+    box-sizing: border-box;
+}
+
+.contact-page .submit-button
+{
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #F1E4AE;
+    color: #293326;
+    border: 2px solid #7FA87A;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px auto 0 auto;
+}
 
 /* Footer Styles */
 footer
