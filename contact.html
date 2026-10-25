@@ -1,92 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Us</title>
+	<meta name="author" content="Furkan Yoztyurk">
+	<meta
+	  name="description"
+	  content="Contact us for any questions or comments regarding our website and its content. We value your feedback and inquiries."
+	>
+	<meta
+	  name="keywords"
+	  content="contact, contact us, questions, comments, feedback, inquiries"
+	>
 
-<!DOCTYPE html>
-<html lang="en">    
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <meta name="author" content="Furkan Yoztyurk">
-    <meta name="description" content="Contact us for any questions or comments regarding our website and its content. We value your feedback and inquiries.">
-    <meta name="keywords" content="contact, contact us, questions, comments, feedback, inquiries">
-    
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-</head>
-<body class="contact-page">
-    <header>
-     <figure>
-    <img src="img/logo.png" alt="Logo" class="logo">    
-</figure>
-<input type="checkbox" id="menu-toggle" class="menu-toggle">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  </head>
+  <body class="contact-page">
+	<aside class="cookies">
+	  <p>We use cookies to improve your experience.</p>
+	  <p>&copy; 2026 GUDIES</p>
+	</aside>
 
-<label for="menu-toggle" class="hamburger-icon">
-        <span></span>
-        <span></span>
-        <span></span>
-    </label>
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="cooking_techniques.html">Cooking Techniques</a></li>
-        <li><a href="kitchen_tools.html">Kitchen Tools</a></li>
-        <li><a href="food_storage.html">Food Storage</a></li>
-        <li><a href="food_fermentation.html">Food Fermentation</a></li>
-       
-        
-    </ul>
-    </header>
-    <main>
-    <h1>Ask Your Questions</h1>
-    <h2>Still Have Questions?</h2>
-<section class="intro">
-    <p>Still struggling in the kitchen?</p>
-    <p>Then ask me your kitchen related questions, and I'll do my best to answer them.</p>
-    <p>You can also use this page to give feedback about the website.</p>
-    <p>Because this website is about cooking, the methods you see online may not always match the methods I use.</p>
-    <p>That's okay! These methods are here to help you understand the basics and give you a starting point in the kitchen.</p>
+	<header>
+	  <figure>
+		<img
+		  src="img/logo.png"
+		  alt="GUDIES Logo"
+		  class="logo"
+		  title="GUDIES Logo"
+		>
+		<figcaption>The Guide To Kitchen</figcaption>
+	  </figure>
+	  <input type="checkbox" id="menu-toggle" class="menu-toggle">
 
-</section>
-<h2>Fill This Form</h2>
-<p>Fill the form so that i can contact you. And answer your question</p>
+	  <label for="menu-toggle" class="hamburger-icon">
+		<span></span>
+		<span></span>
+		<span></span>
+	  </label>
+	  <nav>
+		<ul>
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="cooking_techniques.html">Techniques</a></li>
+		  <li><a href="kitchen_tools.html">Kitchen Tools</a></li>
+		  <li><a href="food_storage.html">Food Storage</a></li>
+		  <li><a href="food_fermentation.html">Fermentation</a></li>
+		</ul>
+	  </nav>
+	</header>
+	<main>
+	  <h1>Ask Your Questions</h1>
+	  
+	  <section class="intro">
+		<h2>Still Have Questions?</h2>
+		<p>Still struggling in the kitchen?</p>
+		<p>
+		  Then ask me your kitchen related questions, and I'll do my best to
+		  answer them.
+		</p>
+		<p>You can also use this page to give feedback about the website.</p>
+		<p>
+		  Because this website is about cooking, the methods you see online may
+		  not always match the methods I use.
+		</p>
+		<p>
+		  That's okay! These methods are here to help you understand the basics
+		  and give you a starting point in the kitchen.
+		</p>
+	  </section>
+	  <h2>Fill This Form</h2>
+	  <p>Fill the form so that i can contact you. And answer your question</p>
 
-<section class="form-container">
-<form action="http://next-app-router-playground-kohl.vercel.app/api/contact" method="post">
-  <label for="name">*Enter Your Full Name</label>
-  <input type="text" id="name" name="name" placeholder="Your Name" required>
-  
-  <label for="email">*Enter Your Email Address</label>
-  <input type="email" id="email" name="email" placeholder="Your Email Address" required>
-  
-  <label for="subject">Subject</label>
-  <input type="text" id="subject" name="subject">
+	  <section class="form-container">
+		<h2>Fill the form</h2>
+		<form
+		  action="http://next-app-router-playground-kohl.vercel.app/api/contact"
+		  method="post"
+		>
+		  <label for="name">*Enter Your Full Name</label>
+		  <input
+			type="text"
+			id="name"
+			name="name"
+			placeholder="Your Name"
+			required
+		  >
 
+		  <label for="email">*Enter Your Email Address</label>
+		  <input
+			type="email"
+			id="email"
+			name="email"
+			placeholder="Your Email Address"
+			required
+		  >
 
-  <label for="message">*Message</label>
-  <textarea id="message" name="message" rows="4" required></textarea>
-  
-  <input type="submit" value="Submit" class="submit-button">
-  </form>
+		  <label for="subject">Subject</label>
+		  <input type="text" id="subject" name="subject">
 
-</section>
+		  <label for="message">*Message</label>
+		  <textarea id="message" name="message" rows="4" required></textarea>
 
+		  <input type="submit" value="Submit" class="submit-button">
+		</form>
+	  </section>
+	</main>
 
-  </main>
-
-  <footer>
-       <h2>GUDIES</h2>
-    <nav>
-    <h3>Explore</h3>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="food_fermentation.html">Food Fermentation</a></li>
-        <li><a href="kitchen_tools.html">Kitchen Tools</a></li>
-        <li><a href="food_storage.html">Food Storage</a></li>
-        <li><a href="cooking_techniques.html">Cooking Techniques</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-    </ul>
-    </nav>
-    <p>&copy; 2026 GUDIES. All rights reserved.</p>
-    </footer>
-
+	<footer>
+	  <h2>GUDIES</h2>
+	  <nav>
+		<h3>Explore</h3>
+		<ul>
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="food_fermentation.html">Food Fermentation</a></li>
+		  <li><a href="kitchen_tools.html">Kitchen Tools</a></li>
+		  <li><a href="food_storage.html">Food Storage</a></li>
+		  <li><a href="cooking_techniques.html">Cooking Techniques</a></li>
+		  <li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	  </nav>
+	  <p>&copy; 2026 GUDIES. All rights reserved.</p>
+	</footer>
   </body>
-  </html>
+</html>
