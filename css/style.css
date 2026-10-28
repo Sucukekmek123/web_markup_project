@@ -479,3 +479,6 @@ footer p {
 		max-width: 60px;
 	}
 }
+.legend {
+	font-family: "Inter", sans-serif;
+}
